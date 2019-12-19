@@ -1,0 +1,341 @@
+.blok_prava_kolonka{
+	width: 65%;
+	height: auto;
+	/*display: flex;
+	flex-flow: column nowrap;*/	
+	/*background: grey;*/
+}
+
+.catalog{
+	width: 100%;
+	height: 475px;
+	/*display: flex;
+	flex-flow: column nowrap;
+	align-items: center;*/	
+	background: #ECF0F3;		
+}
+
+.price{
+	width: 98%;
+	height:400px; 
+	margin-top: 15px;
+	margin-left: 1%;
+	overflow-y: scroll;
+	background: white;			
+}
+
+.price::-webkit-scrollbar{
+	width: 10px;	
+	background: #ECF0F3;
+}
+
+.price::-webkit-scrollbar-thumb{
+	border-radius: 10px;		
+	background: #90A0BA;
+}
+
+
+.blok_nazv_kolonok{	
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	height: 30px;
+	display: flex;		
+	background: white;
+	font-family: "Arial black";  
+	font-weight: bolder;
+	font-size: 11px;
+	color: #32405B;
+	z-index: 1;	
+}
+
+.shapka{
+	box-shadow:1px 0px 3px 0px LightGrey;
+}
+
+.picture{
+	width:14.2%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;	
+	padding-left: 15px;	
+}
+
+.brand{
+	width:14.2%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;		
+	padding-left: 15px;	
+}
+
+.name{
+	width:28.4%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;
+	padding-left: 15px;	
+}
+
+.praise{	
+	width:12.7%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;
+	padding-left: 15px;	
+}
+
+.quantity{
+	width:12.7%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;
+	padding-left: 15px;
+}
+
+.subtotal{
+	width:17.8%;
+	height: auto;
+	display: flex;
+	align-items:center;
+	box-sizing: border-box;
+	padding-left: 15px;	
+}
+
+.blok_tovara{
+	width: 100%;
+	height: 80px;		
+	margin-top: 5px;
+	display: flex;
+	flex-flow: row nowrap;	
+	align-items: center;		
+	background: #ECF0F3;
+}
+
+.tov_pict{
+	justify-content: space-between;
+	padding-left:0px;
+
+}
+
+.nomer_tovara{
+	width: auto;
+	height: 100%;	
+	display:flex;
+	flex-flow: row nowrap;	
+	align-items: center;	
+}
+
+.foto_tovara{
+	width: auto;
+	height: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: #D6D6D6;	
+}
+
+.plus{	
+	width: 21px;
+	height: 21px;	
+	line-height: 20px;
+	font-size: 25px;
+	text-align: center;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;		
+	font-weight: bolder;
+	background: rgba(255, 255, 255, 0.4);	
+}
+
+
+.tov_brand{
+	font-family: "Arial black";  
+	font-weight: bolder;
+	font-size: 11px;
+}
+
+.tov_name{	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;	
+}
+
+.name_opys{
+	width: 100%;
+	height: auto;		
+	font-size: 12px;	
+}
+
+.name_part_number{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	display: flex;	
+}
+
+
+.part_number{
+	font-size: 12px;	
+}
+
+.kod_part_number{
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+
+.tov_prise{
+	font-family: "Arial black";  
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+
+.tov_quantity{	
+	justify-content: center;
+	padding-left: 10px;		
+}
+
+.quant_{
+	width: auto;	
+	height: auto;	
+	font-size:15px;			
+}
+
+.plus_{
+	width: 20px;
+	height: 20px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size:20px;
+	background: white;
+	border-radius: 50%;
+}
+
+.minus_{
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;		
+	font-size:20px;
+	background: white;
+	border-radius: 50%;
+}
+
+
+.tov_subtotal{
+	justify-content: space-between;
+}
+
+.subtot_suma{
+	width: auto;
+	height: all;
+	font-family: "Arial black";  
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+.subtot_upravl{
+	width: auto;
+	height: all;
+	margin-right: 15px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content:center; 
+}
+
+.key{
+	width: 10px;
+	height: 10px;		 
+}
+
+.krest{
+	width: auto;
+	height: auto;
+	margin-top: 13px;
+	color: red;
+}
+
+.blok_itogo{	
+	width: 100%;
+	min-height: 35px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;	
+	font-family: "Arial black";  
+	font-weight: bolder;
+	font-size: 12px;	
+	/*background: #ECF0F3;*/
+	background: #EEEFF3;
+}
+
+.itogo_kilkist{
+	width: 12.7%;
+	height: auto;	
+	box-sizing: border-box;
+	text-align: center;	
+}
+
+.itogo_suma{
+	width: 19.4%;
+	height: auto;
+	box-sizing: border-box;
+	padding-left: 15px;	
+}
+
+.blok_coupon{
+	width: 100%;
+	height:70px;
+	margin-top: 10px;
+	display: flex;
+	flex-flow: column nowrap;	
+}
+
+.text_coupon{
+	width: 100%;
+	height: 35px;	
+	display: flex;
+	align-items: center;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.blok_kod_coupon{
+	width: 100%;
+	height: 35px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.cod{
+	width: 66%;
+	height: 80%;
+	padding-left: 10px;
+	border: 0px;
+	background: #ECF0F3;
+	
+}
+
+.submit{
+	width: 30%;
+	height: 100%;
+	background-color:#D4D7E0;	
+	font-size: 14px;
+	font-weight: bolder;
+	color: white;
+	border: 0;
+}
+
+
+
+

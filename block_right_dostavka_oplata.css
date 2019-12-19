@@ -1,0 +1,247 @@
+.blok_dostavka{
+	width: 100%;
+	height: auto;
+	margin-top: 35px;	
+	display: flex;
+	flex-flow: column nowrap;
+	/*background: violet;*/
+}
+
+
+.blok_trasport_company{
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-flow: row nowrap;	
+	overflow-x: scroll;
+	overflow-y: hidden;
+	box-shadow:-1px 1px 3px 1px LightGrey,
+	1px 1px 3px 1px LightGrey;				
+}
+
+.blok_trasport_company::-webkit-scrollbar{
+	height: 10px;	
+	background: #ECF0F3;	
+	}
+
+.blok_trasport_company::-webkit-scrollbar-thumb{
+	border-radius: 10px;		
+	background: #90A0BA;	
+}
+
+
+.kart_transp_comp{
+	min-width: 118px;
+	min-height: 165px;	
+	border-right: 1px solid #D4D7E0;
+	display: flex;		
+	flex-flow: column nowrap;	
+}
+
+/*.rozmir_vybor{
+	width: 100%;
+	height:23%;		
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}*/
+
+[name="trans_comp"]{	
+	margin:auto;}
+
+[name="trans_comp"]:focus ~ .tsina{
+	color: #D2443A;
+	font-weight: bolder;
+}
+
+.rozmir_logo{
+	width: 100%;
+	height:23%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	/*background: red;*/
+}
+
+
+.rozmir_metod{
+	width: 100%;
+	height:18%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#ECF0F3; 	
+	/*background: green;*/  
+}
+
+.rozmir_strock{
+	width: 100%;
+	height:20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	 	
+	/*background: red; */
+}
+
+.rozmir_tsina{
+	width: 100%;
+	height:18%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#ECF0F3;	
+	/*background: green;*/ 
+}
+
+.total{
+	width: 100%;
+	min-height: 35px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background: #EEEFF3;
+
+}
+
+.text_total{
+	width: auto;
+	height: auto;
+	margin-right: 15px;
+	font-size:12px;
+	font-weight: bold;		
+}
+
+.suma_total{	
+	width: auto;
+	height: auto;
+	margin-right: 50px;
+	font-size:19px;
+	font-weight: bold;
+	color: #D2443A;	
+}
+
+.blok_credit_card{
+	margin-top: 25px;
+}
+
+.stroka_credit_card{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	background: white;
+	box-shadow:-1px 1px 3px 1px LightGrey,
+	1px 1px 3px 1px LightGrey;
+}
+
+.blok_paypal{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	box-shadow:/*-1px 1px 3px 1px LightGrey,*/
+	1px 0px 3px 1px LightGrey;	
+	/*background: blue;*/
+}
+
+.radio_paypal{
+	margin-left: 15px;
+}
+
+
+.radio_paypal_label{
+	margin-left: 15px;
+}
+
+.text_paypal{
+	margin-left: 15px;
+}
+
+.blok_visa{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;	
+	/*background: blue;*/
+}
+
+.radio_visa{
+	margin-left: 15px;
+}
+
+.radio_visal_label{
+	margin-left: 15px;
+}
+
+.text_visa{
+	margin-left: 15px;
+}
+
+.blok_order_note{
+	width: 100%;
+	height: auto;	
+	margin-top:20px;	 
+}
+
+.text_note{
+	width: 100%;
+	height: 35px;	
+	display: flex;
+	align-items: center;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.order_note{
+	width: 100%;
+	height:65px;
+	box-sizing: border-box;	
+	padding-top: 10px;
+	border: 0;
+	resize: none;
+	outline:none;	
+	background: #EEEFF3;
+}
+
+.poloska_prav{
+	width: 100%;
+	height:0px;
+	margin-top: 25px;
+	border: 1px solid #D4D7E0;
+	/*background: grey;*/
+}
+
+.blok_sign_up{
+	margin-top: 25px;
+	font-size: 15px;	
+}
+
+.blok_lagree{
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.knopka_order{
+	width: 100%;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	color: white;
+	background: #D2443A;
+	border: 0;
+}
+
+.knopka_order:focus {
+    outline: none;            
+}
+
+
+.knopka_order:active{
+	color: white;	
+	background:#30405A;
+	outline-offset: 0;
+	outline: none;
+}
+

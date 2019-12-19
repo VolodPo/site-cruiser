@@ -1,0 +1,94 @@
+.fon_footer{
+	width: 100%;
+	height: 105px;	
+	background: #ECF0F3;	
+}
+
+
+footer{
+	width: 1100px;
+	height: 105px;	
+	background: #ECF0F3;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;	
+	align-items: center;
+	font-family: Arial;	
+	/*background: yellow;*/
+}
+
+.blok_footer_base{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: baseline;
+	font-family: Arial black;	
+}
+
+.foot_log{			
+	font-size: 25px;
+	font-weight: bolder;
+	margin-right: 120px;
+	font-family: Arial;
+}
+
+.blok_about{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+
+.blok_faq{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+.blok_warranty{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+.blok_news{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+.blok_contact{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+
+.blok_brand{
+	font-size:13px;
+	font-weight: bolder;
+	margin-right: auto;
+}
+
+.blok_all{
+	font-size:13px;
+	font-family: Arial;
+	font-weight: bolder;
+	margin-right: 15px;
+}
+
+.blok_smujka{
+position: relative;
+}
+
+.smujka{
+	width: 2px;
+	height:25px;
+	position: absolute;
+	left: 0px;
+	bottom:-7px;
+	background:#32405B;	
+}
+
+.blok_rik{
+	font-size:13px;
+	font-family: Arial;
+	font-weight: bolder;	
+	margin-left: 15px;
+}

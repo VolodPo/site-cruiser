@@ -1,0 +1,285 @@
+body{
+	margin: 0;
+	padding: 0;
+	color:#32405B;
+	/*background: black;*/
+	}
+.general{
+	width:100%;
+}
+
+
+main{
+	width: 1100px;
+	height: 1600px;		
+	margin: auto;
+	padding-top: 100px;
+	/*background: violet;*/
+	font-family: 'Segoe UI';
+}
+
+.blok_homme{
+	width: 100%;
+	height: 105px;
+	margin-top: 5px;	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+.homme{
+	width: auto;
+	height: auto;
+	background: white;
+}
+
+.font_homme1{
+	font-family: Arial;
+	font-size: 18.5px;
+}
+
+.font_homme2{
+	font-family: Arial Black;
+	font-size: 18.5px;
+}
+
+
+.continue{
+	width: 15%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #30405A;	
+}
+
+.chervona_galka{
+	width: 17.35%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#D2443A;
+	color: white;
+	font-size: 20px;
+	box-sizing: border-box;	
+	padding-bottom:4px; 
+	font-weight: bolder;	
+}
+
+.siniy_continue{
+	width: auto;
+	height: auto;
+	margin: auto;
+	font-size:11px;	
+	color: white;	
+}
+
+
+.blok_storinka{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	/*background: pink;*/
+}
+
+.blok_liva_kolonka{
+	width: 32%;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	background: white;
+	box-shadow: 1px 1px 4px 1px grey;
+}
+
+.verh_fon{
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color:white;
+	background: #90A0BA;
+}
+
+
+.blok_zagol{
+	width: 100%;
+	height: auto;
+	padding-bottom: 4px;
+	font-size: 12px;
+	font-weight: bolder;
+	font-family: "Arial black";
+}
+
+.blok_vikno{
+	width: 100%;
+	height: 35px;		
+	padding: 10px;
+	box-sizing: border-box;	
+	background: #EEEFF3;
+	border: 0;	
+	border: 1px solid #D4D7E0;
+}
+
+.blok_vikno:focus {
+    outline: none;
+    outline-offset: 0;
+    border: 1px solid #D4D7E0;
+    box-shadow: none;
+}
+
+
+
+.blok_email{
+	width: 90%;
+	height:auto;
+	margin-top: 10px;	
+	display: flex;
+	flex-flow: column nowrap;	
+}
+
+
+
+.blok_got_account{
+	width: 90%;
+	height: auto;
+	margin-top: 10px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.zagol_got_account{
+	width: 90%;
+	height: auto;	
+	font-size: 12px;
+}
+
+.guest{
+	color: red;
+}
+
+.vikna_got_account{
+	width: 100%
+	height:auto;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rozmir_bloku{
+	width: 47%;
+	height: auto;
+}
+
+.rovno{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;			
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.rovno > div{
+	margin:0 5px 0 5px;
+}
+
+.blok_fio{
+	width: 90%;
+	height: auto;
+	margin-top: 25px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;	
+}
+
+.blok_mal{
+	width: 47%
+}
+
+
+.blok_street_adress{
+	width: 90%;
+	height:auto;
+	margin-top: 15px;	
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.blok_adres{
+	width: 90%;
+	height: auto;
+	margin-top: 25px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;	
+}
+
+.blok_phone{
+	width: 90%;
+	height:auto;
+	margin-top: 15px;	
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.blok_checkbox{	
+	width: 90%;
+	height: 35px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	font-size: 12px;	
+}
+
+
+
+.checkbox_1{
+	margin-top: 5px;
+}
+
+.poloska{
+	width: 90%;
+	height:0px;
+	margin-top: 5px;
+	border: 1px solid grey;
+	/*background: grey;*/
+}
+
+.checkbox_2{
+	margin-top: 5px;
+}
+
+.save{
+	width: 90%;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	color: white;
+	background: #30405A;
+	border: 0;
+}
+
+.save:focus {
+    outline: none;            
+}
+
+
+.save:active{
+	color: #D2443A;	
+	outline-offset: 0;
+	outline: none;
+}
+
+
+
