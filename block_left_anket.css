@@ -261,7 +261,7 @@ main{
 /*меняем иконку курсора на pointer (появляется рука с пальцем),
  для того чтобы пользователь понимал,
   что данный элемент кликабилен*/
-.chekboks {
+.galka {
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -277,7 +277,7 @@ input[type="checkbox"] {
 }
 
 /*Заменяем скрытый элемент псевдо классом :before*/
-.chekboks:before {
+.galka:before {
     content: "";
     display: inline-block;
     width: 16px;
@@ -286,21 +286,21 @@ input[type="checkbox"] {
     position: absolute;
     left: 0;
     bottom: 1px;
-    background-color: #aaa;
+    /*background-color: #aaa;*/
     box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3),
-    			 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    0px 1px 0px 0px rgba(255, 255, 255, .8);
 }
  
 /*Поскольку мы убираем стандартное отображение чекбокса
  при помощи псевдо-элемента :before, просто добавим рамку*/
-.chekboks:before {
+.galka:before {
  border-radius: 3px;
 }
 
 /* Затем добавим символ “галочка”, который появится при  клике
   по чекбоксу. На этот раз нам понадобится преобразовать HTML
     символ &#10003;.*/
-input[type=checkbox]:checked + .chekboks:before {
+input[type=checkbox]:checked + .galka:before {
     content: "\2713";
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
     font-size: 15px;
